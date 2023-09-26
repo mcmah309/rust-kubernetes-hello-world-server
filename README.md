@@ -1,4 +1,4 @@
-# Rust Hello World To Kubernetes
+# Rust Kubernetes Hello World Server
 
 The following has been tested with kubernetes disribution k3s running on WSL2 Windows.
 
