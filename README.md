@@ -26,6 +26,11 @@ Shutdown container:
 docker ps 
 docker stop <Container running name>
 ```
+Publish to dockerhub
+```bash
+docker tag hello-world-kubernetes:latest <YOUR_DOCKERHUB_NAMESPACE>/hello-world-kubernetes:latest
+docker push <YOUR_DOCKERHUB_NAMESPACE>/hello-world-kubernetes:latest
+```
 
 ## Kubernetes
 Install k3s:
